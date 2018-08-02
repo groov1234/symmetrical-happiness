@@ -1,0 +1,78 @@
+.skills-page {
+    height: 800px;
+    /* height: 637px; */
+    margin: 0;
+  }
+  
+.s-bg {
+    position: relative;
+    background-image: url(https://media.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  
+  .s-text-container {
+    position: relative;
+    top: 10%;
+    margin: auto;
+    display: block;
+    height: 80%;
+    width:80%;
+    /* border: solid 1px none; */
+    background: none;
+    text-align: center;
+    font-family: Courier New;
+  }
+  
+  .s-text {
+    position: relative;
+    color: white;
+    top: 2%;
+  }
+  
+  .s-text2 {
+    margin-top: 0%;
+    color: white;
+  }
+  
+  .s-quote {
+    position: relative;
+    font-family: Courier New;
+    color: white;
+    text-align: center;
+    top:40%;
+    padding: 5%;
+    
+  }
+
+
+.datas {
+  position: absolute;
+  text-shadow: .3px .3px black;
+  margin-top: 8%;
+  color: white;
+  
+}
+.head {
+  font-size: 150%;
+  background: black;
+  opacity: .5;
+}
+
+.tbody {
+  background: rgb(255, 236, 236, .5);
+  color: black;
+}
+
+@media (min-width: 0px) and (max-width: 725px ) {
+  .s-text-container {
+    display: none;
+  }
+
+  
+}
